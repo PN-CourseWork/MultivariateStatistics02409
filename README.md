@@ -1,7 +1,7 @@
 # 02409 Multivariate Statistics - Python Exam Tools
 
 Python toolkit for the DTU 02409 Multivariate Statistics exam.
-
+.
 ## Quick Start
 
 ```bash
