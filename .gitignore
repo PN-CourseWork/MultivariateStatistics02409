@@ -1,0 +1,56 @@
+# Sphinx documentation build artifacts
+docs/build/
+
+# Sphinx-gallery generated files
+docs/source/exam_gallery/
+docs/source/gen_modules/
+docs/source/sg_execution_times.rst
+docs/source/api/generated/
+
+# Sphinx autosummary
+docs/source/_autosummary/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# OS generated files
+Thumbs.db

@@ -1,0 +1,57 @@
+/* Custom CSS for multistat documentation */
+
+/* Hide download buttons in gallery */
+.sphx-glr-download-link-note {
+    display: none;
+}
+
+/* Better table styling */
+table.docutils {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.docutils td, table.docutils th {
+    padding: 8px 12px;
+    border: 1px solid var(--pst-color-border);
+}
+
+/* Math block styling - works with light and dark themes */
+div.math {
+    padding: 12px 16px;
+    margin: 12px 0;
+    border-radius: 6px;
+    background-color: transparent;
+    overflow-x: auto;
+}
+
+/* MathJax elements should inherit text color */
+.MathJax, .MathJax_Display, mjx-container {
+    color: var(--pst-color-text-base) !important;
+}
+
+/* Ensure math is readable in both themes */
+.math.notranslate.nohighlight {
+    background-color: transparent;
+    color: inherit;
+}
+
+/* Inline math */
+span.math {
+    background-color: transparent;
+    padding: 0 2px;
+}
+
+/* Display math blocks */
+div.math.notranslate.nohighlight {
+    background-color: var(--pst-color-surface);
+    border: 1px solid var(--pst-color-border);
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+}
+
+/* Key formulas section styling */
+section#key-formulas div.math {
+    margin: 8px 0;
+}
